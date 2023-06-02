@@ -1,0 +1,41 @@
+.HeroBtn{
+    padding: 30px 60px 30px 60px; 
+    background-color:#c21b1b; 
+    border-radius:40px; 
+    color:#ffffff; 
+    font-family: Fira Sans;
+    display: flex;
+    width: min-content;
+    text-align: center;
+    margin: 60px auto 0px auto;
+}
+
+body{
+    background-image: url(../img/mountains.jpg);
+}
+
+.hero{
+
+}
+
+h1{
+    font-size: 70px;
+    font-family: Fira Sans,Arial,sans-serif;
+    font-weight: 600;
+    color:#ffffff; 
+    text-align: center;
+    width: 770px;
+    margin: 50px auto 0px auto;
+    letter-spacing: 1px;
+}
+
+.hero h4{
+    font-size: 22px;
+    font-family: Fira Sans,Arial,sans-serif;
+    font-weight: 600;
+    color:#ffffff; 
+    text-align: center;
+    width: min-content;
+    margin: 145px auto 0px auto;
+    letter-spacing: 2px;
+}

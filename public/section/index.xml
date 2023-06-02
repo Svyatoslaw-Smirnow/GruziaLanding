@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Sections on Tour Test</title>
+    <link>http://example.org/section/</link>
+    <description>Recent content in Sections on Tour Test</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 18 May 2023 11:18:05 +0300</lastBuildDate><atom:link href="http://example.org/section/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Hello</title>
+      <link>http://example.org/section/hello/</link>
+      <pubDate>Thu, 18 May 2023 11:18:05 +0300</pubDate>
+      
+      <guid>http://example.org/section/hello/</guid>
+      <description>Привет, любители приключений и настоящей грузинской кухни! Если вы готовы насладиться вкусом грузинского вина, забыть о проблемах и перезагрузиться, то мы знаем, куда вас отправить - в Кахетию!
+Кахетия - это регион, где солнце светит ярче, а вино течет рекой! Здесь вы сможете насладиться местными продуктами, побывать на ярмарках и рынках, и, конечно, увидеть множество древних монастырей и замков!</description>
+    </item>
+    
+  </channel>
+</rss>

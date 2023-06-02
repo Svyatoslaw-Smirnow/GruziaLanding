@@ -1,0 +1,7 @@
+{{ range where .Site.RegularPages "Section" "section"}}
+<section id="{{.File.BaseFileName}}" class="section--{{.File.BaseFileName}} section">
+    <div class="container">
+        {{ .Content }}
+    </div>
+</section>
+{{ end }}

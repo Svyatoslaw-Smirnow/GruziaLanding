@@ -1,0 +1,8 @@
+baseURL = 'http://example.org/'
+languageCode = 'en-us'
+title = 'Tour Test'
+
+[params.SSV]
+    background = "background-image: url(../img/mountains.jpg);"
+    color = "url(../img/mountains.jpg);"
+    red = "red"

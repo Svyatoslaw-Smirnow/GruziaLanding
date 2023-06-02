@@ -1,0 +1,9 @@
+<div class="hero">
+    <div class="container">
+        {{ range .Pages}}
+            {{ if eq .Title "Hero" }}
+                {{ .Content }}
+            {{ end }}
+        {{end}}
+    </div>
+</div>

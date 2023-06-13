@@ -19,7 +19,7 @@ a{
 
 .HeroBtn{
     padding: 15px 60px 15px 60px; 
-    background-color:#c21b1b; 
+    background-color:#b81a1a; 
     border-radius:40px; 
     color:#ffffff; 
     font-family: Fira Sans;
@@ -63,7 +63,7 @@ h1{
 }
 
 .container{
-    
+
 }
 
 .section{
@@ -98,7 +98,8 @@ h1{
 }
 
 .section--PhotoList{
-    padding: 50px 0px;
+    padding: 50px 0px 0px 0px;
+    margin: 0px;
 }
 
 .section--PhotoList ul{
@@ -114,7 +115,6 @@ h1{
 }
 
 .section--PhotoList ul li{
-    background-color: #c21b1b;
     display: block;
     content: '';
     width: 25%;
@@ -135,3 +135,43 @@ h1{
     z-index: 1;
 }
 
+.section--prices{
+    background-color: #f0f0f0;
+    padding-bottom: 100px;
+}
+
+.section--prices .container ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+}
+
+.section--prices .container ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+}
+
+.section--prices .container ul li{
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+
+    font-weight: 700;
+}
+
+.section--prices .container ul li img{
+    object-fit: cover;
+    width: 70px;
+    height: 70px;
+}
+
+.section--prices .container ul li ul li{
+    width: 300px;
+    color: rgb(102, 102, 102);
+    font-size: 12px;
+    font-family: Fira Sans,Arial,sans-serif;
+
+    font-weight: 300;
+}

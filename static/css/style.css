@@ -98,8 +98,8 @@ h1{
 }
 
 .section--PhotoList{
-    padding: 50px 0px 0px 0px;
-    margin: 0px;
+    padding: 50px 0px 0px 0px !important;
+    margin: 0px 0px 0px 0px !important;
 }
 
 .section--PhotoList ul{
@@ -136,20 +136,18 @@ h1{
 }
 
 .section--prices{
+    margin-top: -15px;
     background-color: #f0f0f0;
+    padding-top: 45px;
     padding-bottom: 100px;
+    padding-right: 40px;
 }
 
 .section--prices .container ul{
     list-style: none;
     display: flex;
     flex-direction: row;
-}
-
-.section--prices .container ul{
-    list-style: none;
-    display: flex;
-    flex-direction: row;
+    justify-content: space-evenly;
 }
 
 .section--prices .container ul li{
@@ -167,11 +165,45 @@ h1{
     height: 70px;
 }
 
-.section--prices .container ul li ul li{
-    width: 300px;
-    color: rgb(102, 102, 102);
-    font-size: 12px;
-    font-family: Fira Sans,Arial,sans-serif;
+.section--prices .container ul li ul{
+    list-style: none;
+    padding: 0px;
+}
 
+.section--prices .container ul li ul li{
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+
+    text-align: center;
+    width: 200px;
+    color: rgb(102, 102, 102);
+    font-size: 10px;
+    font-family: Fira Sans,Arial,sans-serif;
     font-weight: 300;
+}
+
+.section--prices .container p {
+    width: min-content;
+    margin: 200px auto 0px auto;
+    padding-left: 40px;
+
+    text-align: center;
+    color: rgb(31, 29, 29);
+    font-size: 11px;
+    font-family: Fira Sans,Arial,sans-serif;
+    font-weight: 500;
+}
+
+h2{
+    width: max-content;
+    margin: 30px auto 40px auto;
+    padding-left: 40px;
+
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-size: 40px;
+    font-family: Fira Sans,Arial,sans-serif;
+    font-weight: 500;
 }

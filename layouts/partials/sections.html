@@ -1,6 +1,6 @@
-{{ range where .Site.RegularPages "Section" "section"}}
+{{ $AllSection := where .Site.RegularPages "Section" "section"}}
+{{ range sort $AllSection ".Params.Number_Section" "arc"}}
 <section id="{{.File.BaseFileName}}" class="section--{{.File.BaseFileName}} section">
-
     {{ if eq .Title "2PhotoList" }}
         {{ .Content }}
     {{ else if eq .Title "SSV" }}
@@ -10,7 +10,5 @@
             {{ .Content }}
         </div>
     {{ end }}
-
-
 </section>
 {{ end }}

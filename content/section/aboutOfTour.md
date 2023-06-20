@@ -2,6 +2,7 @@
 title: "7about_of_tour"
 date: 2023-05-18T11:18:05+03:00
 draft: false
+Number_Section: 7
 ---
 
 ### Детали тура ###

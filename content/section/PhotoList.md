@@ -2,6 +2,8 @@
 title: "2PhotoList"
 date: 2023-05-18T11:18:05+03:00
 draft: false
+selc: 2
+Number_Section: 2
 ---
 
 - ![1](img/cercovi.jpg)

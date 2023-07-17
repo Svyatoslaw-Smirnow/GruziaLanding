@@ -236,7 +236,7 @@ h2{
     justify-content: space-evenly;
 }
 
-.section--aboutOfTour .container ul li{
+.section--aboutOfTour .container ul li:last-child{
     display: flex;
     flex-direction: column;
 
